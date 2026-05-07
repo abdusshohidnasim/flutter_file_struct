@@ -1,0 +1,20 @@
+name: flutter_file_struct
+description: A CLI tool that auto-generates Flutter project folder structure, lib files, assets, and pubspec.yaml with a single command.
+version: 0.0.1
+repository: https://github.com/abdusshohidnasim/flutter_file_struct
+
+
+
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  path: ^1.9.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
+
+executables:
+  flutter_file_struct:
